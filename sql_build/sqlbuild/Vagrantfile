@@ -1,0 +1,35 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "centos/7"
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.name = "centos7_vm"
+    vb.memory = "4096"
+    vb.cpus = 4
+  end
+
+  # Синхронизация локальной папки с Vagrant
+  config.vm.synced_folder ".", "/vagrant"
+
+  # Устанавливаем Ansible и Docker
+  config.vm.provision "shell", inline: <<-SHELL
+    sudo sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*.repo
+    sudo sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*.repo
+    sudo yum install -y https://archives.fedoraproject.org/pub/archive/epel/7/x86_64/Packages/e/epel-release-7-14.noarch.rpm
+    sudo yum install -y ansible
+  SHELL
+
+  # Используем Ansible для установки Docker
+  config.vm.provision "ansible_local" do |ansible|
+    ansible.playbook = "install_docker.yml"
+    ansible.install = false
+    ansible.compatibility_mode = "2.0"
+  end
+
+  # Запуск Docker контейнера для сборки проекта
+  config.vm.provision "shell", inline: <<-SHELL
+    cd /vagrant
+    sudo docker build -t sqlite-builder .
+    sudo docker run --rm -v /vagrant/output:/output sqlite-builder
+    ls -l /vagrant/output
+  SHELL
+end

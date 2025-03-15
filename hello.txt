@@ -1,4 +1,0 @@
-Hello world!
-Hello QA engineers
-Error: fata panic
-error: user is not authorized

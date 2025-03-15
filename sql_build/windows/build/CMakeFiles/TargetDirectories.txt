@@ -1,0 +1,4 @@
+C:/GitHub/devops/sql_build/final/windows/build/CMakeFiles/sqlite.dir
+C:/GitHub/devops/sql_build/final/windows/build/CMakeFiles/INSTALL.dir
+C:/GitHub/devops/sql_build/final/windows/build/CMakeFiles/ALL_BUILD.dir
+C:/GitHub/devops/sql_build/final/windows/build/CMakeFiles/ZERO_CHECK.dir

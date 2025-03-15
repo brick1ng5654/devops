@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/GitHub/devops/sql_build/final/windows/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

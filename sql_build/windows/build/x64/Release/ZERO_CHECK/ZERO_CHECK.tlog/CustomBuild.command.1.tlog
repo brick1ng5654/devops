@@ -1,0 +1,10 @@
+^C:\GITHUB\DEVOPS\SQL_BUILD\FINAL\WINDOWS\BUILD\CMAKEFILES\880929BC2318E533EED58C4E141FC88C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/GitHub/devops/sql_build/final/windows -BC:/GitHub/devops/sql_build/final/windows/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/GitHub/devops/sql_build/final/windows/build/sqlite-dll.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
