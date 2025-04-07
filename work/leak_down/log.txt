@@ -1,0 +1,617 @@
+libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Input #0, matroska,webm, from 'compressed_8bit_1024x1024.mkv':
+  Metadata:
+    ENCODER         : Lavf59.16.100
+  Duration: 00:00:00.04, bitrate: 461 kb/s
+  Stream #0:0: Video: h264 (High 4:4:4 Predictive), yuvj444p(pc, unknown/unknown/bt470m, progressive), 1024x1024, 25 fps, 25 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc59.18.100 libx264
+      DURATION        : 00:00:00.040000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> tiff (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x55d1de235800] [swscaler @ 0x55d1de2433c0] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x55d1de235800] [swscaler @ 0x55d1de260a80] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x55d1de235800] [swscaler @ 0x55d1de27dc80] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x55d1de235800] [swscaler @ 0x55d1de29ae80] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x55d1de235800] [swscaler @ 0x55d1de2b8080] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'compressed_8bit_1024x1024_from_mkv.tiff':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0: Video: tiff, gray(pc, unknown/unknown/bt470m, progressive), 1024x1024, q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      DURATION        : 00:00:00.040000000
+      encoder         : Lavc59.18.100 tiff
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=2.53x    
+video:831kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.0.3 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 12 (GCC)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 ' --extra-cflags=' -I/usr/include/rav1e' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --enable-chromaprint --disable-crystalhd --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gnutls --enable-ladspa --enable-libaom --enable-libdav1d --enable-libass --enable-libbluray --enable-libbs2b --enable-libcdio --enable-libdrm --enable-libjack --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libilbc --enable-libmp3lame --enable-libmysofa --enable-nvenc --enable-openal --enable-opencl --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librav1e --enable-librubberband --enable-libsmbclient --enable-version3 --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-version3 --enable-vapoursynth --enable-libvpx --enable-vulkan --enable-libglslang --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libxml2 --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-avfilter --enable-libmodplug --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-lto --enable-libmfx --enable-runtime-cpudetect
+  libavutil      57. 17.100 / 57. 17.100
+  libavcodec     59. 18.100 / 59. 18.100
+  libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Input #0, matroska,webm, from 'compressed_8bit_1280x1024.mkv':
+  Metadata:
+    ENCODER         : Lavf59.16.100
+  Duration: 00:00:00.04, bitrate: 505 kb/s
+  Stream #0:0: Video: h264 (High 4:4:4 Predictive), yuvj444p(pc, unknown/unknown/bt470m, progressive), 1280x1024, 25 fps, 25 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc59.18.100 libx264
+      DURATION        : 00:00:00.040000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> tiff (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x5616e9e39b00] [swscaler @ 0x5616e9e46ac0] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5616e9e39b00] [swscaler @ 0x5616e9e667c0] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5616e9e39b00] [swscaler @ 0x5616e9e85080] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5616e9e39b00] [swscaler @ 0x5616e9ea3940] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5616e9e39b00] [swscaler @ 0x5616e9ebd180] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'compressed_8bit_1280x1024_from_mkv.tiff':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0: Video: tiff, gray(pc, unknown/unknown/bt470m, progressive), 1280x1024, q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      DURATION        : 00:00:00.040000000
+      encoder         : Lavc59.18.100 tiff
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=1.59x    
+video:1038kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.0.3 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 12 (GCC)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 ' --extra-cflags=' -I/usr/include/rav1e' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --enable-chromaprint --disable-crystalhd --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gnutls --enable-ladspa --enable-libaom --enable-libdav1d --enable-libass --enable-libbluray --enable-libbs2b --enable-libcdio --enable-libdrm --enable-libjack --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libilbc --enable-libmp3lame --enable-libmysofa --enable-nvenc --enable-openal --enable-opencl --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librav1e --enable-librubberband --enable-libsmbclient --enable-version3 --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-version3 --enable-vapoursynth --enable-libvpx --enable-vulkan --enable-libglslang --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libxml2 --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-avfilter --enable-libmodplug --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-lto --enable-libmfx --enable-runtime-cpudetect
+  libavutil      57. 17.100 / 57. 17.100
+  libavcodec     59. 18.100 / 59. 18.100
+  libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Input #0, matroska,webm, from 'compressed_8bit_1600x1200.mkv':
+  Metadata:
+    ENCODER         : Lavf59.16.100
+  Duration: 00:00:00.04, bitrate: 65803 kb/s
+  Stream #0:0: Video: h264 (High 4:4:4 Predictive), yuvj444p(pc, unknown/unknown/bt470m, progressive), 1600x1200, 25 fps, 25 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc59.18.100 libx264
+      DURATION        : 00:00:00.040000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> tiff (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x56523fe45a80] [swscaler @ 0x56523fe53640] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x56523fe45a80] [swscaler @ 0x56523fe79d00] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x56523fe45a80] [swscaler @ 0x56523fe9e500] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x56523fe45a80] [swscaler @ 0x56523fec13c0] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x56523fe45a80] [swscaler @ 0x56523fee4280] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'compressed_8bit_1600x1200_from_mkv.tiff':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0: Video: tiff, gray(pc, unknown/unknown/bt470m, progressive), 1600x1200, q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      DURATION        : 00:00:00.040000000
+      encoder         : Lavc59.18.100 tiff
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.511x    
+video:1520kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.0.3 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 12 (GCC)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 ' --extra-cflags=' -I/usr/include/rav1e' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --enable-chromaprint --disable-crystalhd --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gnutls --enable-ladspa --enable-libaom --enable-libdav1d --enable-libass --enable-libbluray --enable-libbs2b --enable-libcdio --enable-libdrm --enable-libjack --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libilbc --enable-libmp3lame --enable-libmysofa --enable-nvenc --enable-openal --enable-opencl --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librav1e --enable-librubberband --enable-libsmbclient --enable-version3 --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-version3 --enable-vapoursynth --enable-libvpx --enable-vulkan --enable-libglslang --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libxml2 --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-avfilter --enable-libmodplug --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-lto --enable-libmfx --enable-runtime-cpudetect
+  libavutil      57. 17.100 / 57. 17.100
+  libavcodec     59. 18.100 / 59. 18.100
+  libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Input #0, matroska,webm, from 'compressed_8bit_256x256.mkv':
+  Metadata:
+    ENCODER         : Lavf59.16.100
+  Duration: 00:00:00.04, bitrate: 320 kb/s
+  Stream #0:0: Video: h264 (High 4:4:4 Predictive), yuvj444p(pc, unknown/unknown/bt470m, progressive), 256x256, 25 fps, 25 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc59.18.100 libx264
+      DURATION        : 00:00:00.040000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> tiff (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x55d3b284b1c0] [swscaler @ 0x55d3b2858180] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x55d3b284b1c0] [swscaler @ 0x55d3b2865140] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x55d3b284b1c0] [swscaler @ 0x55d3b2873180] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x55d3b284b1c0] [swscaler @ 0x55d3b2883a40] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x55d3b284b1c0] [swscaler @ 0x55d3b2894740] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'compressed_8bit_256x256_from_mkv.tiff':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0: Video: tiff, gray(pc, unknown/unknown/bt470m, progressive), 256x256, q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      DURATION        : 00:00:00.040000000
+      encoder         : Lavc59.18.100 tiff
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed= 9.3x    
+video:52kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.0.3 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 12 (GCC)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 ' --extra-cflags=' -I/usr/include/rav1e' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --enable-chromaprint --disable-crystalhd --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gnutls --enable-ladspa --enable-libaom --enable-libdav1d --enable-libass --enable-libbluray --enable-libbs2b --enable-libcdio --enable-libdrm --enable-libjack --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libilbc --enable-libmp3lame --enable-libmysofa --enable-nvenc --enable-openal --enable-opencl --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librav1e --enable-librubberband --enable-libsmbclient --enable-version3 --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-version3 --enable-vapoursynth --enable-libvpx --enable-vulkan --enable-libglslang --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libxml2 --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-avfilter --enable-libmodplug --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-lto --enable-libmfx --enable-runtime-cpudetect
+  libavutil      57. 17.100 / 57. 17.100
+  libavcodec     59. 18.100 / 59. 18.100
+  libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Input #0, matroska,webm, from 'compressed_8bit_512x512.mkv':
+  Metadata:
+    ENCODER         : Lavf59.16.100
+  Duration: 00:00:00.04, bitrate: 329 kb/s
+  Stream #0:0: Video: h264 (High 4:4:4 Predictive), yuvj444p(pc, unknown/unknown/bt470m, progressive), 512x512, 25 fps, 25 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc59.18.100 libx264
+      DURATION        : 00:00:00.040000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> tiff (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x56113ff86cc0] [swscaler @ 0x56113ff94180] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x56113ff86cc0] [swscaler @ 0x56113ffa9840] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x56113ff86cc0] [swscaler @ 0x56113ffbea40] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x56113ff86cc0] [swscaler @ 0x56113ffd3c40] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x56113ff86cc0] [swscaler @ 0x56113ffe8e40] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'compressed_8bit_512x512_from_mkv.tiff':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0: Video: tiff, gray(pc, unknown/unknown/bt470m, progressive), 512x512, q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      DURATION        : 00:00:00.040000000
+      encoder         : Lavc59.18.100 tiff
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=5.88x    
+video:208kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.0.3 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 12 (GCC)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 ' --extra-cflags=' -I/usr/include/rav1e' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --enable-chromaprint --disable-crystalhd --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gnutls --enable-ladspa --enable-libaom --enable-libdav1d --enable-libass --enable-libbluray --enable-libbs2b --enable-libcdio --enable-libdrm --enable-libjack --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libilbc --enable-libmp3lame --enable-libmysofa --enable-nvenc --enable-openal --enable-opencl --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librav1e --enable-librubberband --enable-libsmbclient --enable-version3 --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-version3 --enable-vapoursynth --enable-libvpx --enable-vulkan --enable-libglslang --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libxml2 --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-avfilter --enable-libmodplug --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-lto --enable-libmfx --enable-runtime-cpudetect
+  libavutil      57. 17.100 / 57. 17.100
+  libavcodec     59. 18.100 / 59. 18.100
+  libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Input #0, matroska,webm, from 'compressed_8bit_640x512.mkv':
+  Metadata:
+    ENCODER         : Lavf59.16.100
+  Duration: 00:00:00.04, bitrate: 11715 kb/s
+  Stream #0:0: Video: h264 (High 4:4:4 Predictive), yuvj444p(pc, unknown/unknown/bt470m, progressive), 640x512, 25 fps, 25 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc59.18.100 libx264
+      DURATION        : 00:00:00.040000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> tiff (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x5618a52c3940] [swscaler @ 0x5618a52d1500] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5618a52c3940] [swscaler @ 0x5618a574bd80] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5618a52c3940] [swscaler @ 0x5618a5762480] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5618a52c3940] [swscaler @ 0x5618a5778140] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5618a52c3940] [swscaler @ 0x5618a578e840] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'compressed_8bit_640x512_from_mkv.tiff':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0: Video: tiff, gray(pc, unknown/unknown/bt470m, progressive), 640x512, q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      DURATION        : 00:00:00.040000000
+      encoder         : Lavc59.18.100 tiff
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=2.43x    
+video:260kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.0.3 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 12 (GCC)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 ' --extra-cflags=' -I/usr/include/rav1e' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --enable-chromaprint --disable-crystalhd --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gnutls --enable-ladspa --enable-libaom --enable-libdav1d --enable-libass --enable-libbluray --enable-libbs2b --enable-libcdio --enable-libdrm --enable-libjack --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libilbc --enable-libmp3lame --enable-libmysofa --enable-nvenc --enable-openal --enable-opencl --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librav1e --enable-librubberband --enable-libsmbclient --enable-version3 --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-version3 --enable-vapoursynth --enable-libvpx --enable-vulkan --enable-libglslang --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libxml2 --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-avfilter --enable-libmodplug --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-lto --enable-libmfx --enable-runtime-cpudetect
+  libavutil      57. 17.100 / 57. 17.100
+  libavcodec     59. 18.100 / 59. 18.100
+  libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Input #0, matroska,webm, from 'compressed_8bit_768x130.mkv':
+  Metadata:
+    ENCODER         : Lavf59.16.100
+  Duration: 00:00:00.04, bitrate: 352 kb/s
+  Stream #0:0: Video: h264 (High 4:4:4 Predictive), yuvj444p(pc, unknown/unknown/bt470m, progressive), 768x130, 25 fps, 25 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc59.18.100 libx264
+      DURATION        : 00:00:00.040000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> tiff (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x5636480a6780] [swscaler @ 0x5636480b4340] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5636480a6780] [swscaler @ 0x5636480cda00] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5636480a6780] [swscaler @ 0x5636485eaa40] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5636480a6780] [swscaler @ 0x563648603c40] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5636480a6780] [swscaler @ 0x56364861b500] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'compressed_8bit_768x130_from_mkv.tiff':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0: Video: tiff, gray(pc, unknown/unknown/bt470m, progressive), 768x130, q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      DURATION        : 00:00:00.040000000
+      encoder         : Lavc59.18.100 tiff
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed= 8.1x    
+video:79kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.0.3 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 12 (GCC)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 ' --extra-cflags=' -I/usr/include/rav1e' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --enable-chromaprint --disable-crystalhd --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gnutls --enable-ladspa --enable-libaom --enable-libdav1d --enable-libass --enable-libbluray --enable-libbs2b --enable-libcdio --enable-libdrm --enable-libjack --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libilbc --enable-libmp3lame --enable-libmysofa --enable-nvenc --enable-openal --enable-opencl --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librav1e --enable-librubberband --enable-libsmbclient --enable-version3 --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-version3 --enable-vapoursynth --enable-libvpx --enable-vulkan --enable-libglslang --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libxml2 --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-avfilter --enable-libmodplug --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-lto --enable-libmfx --enable-runtime-cpudetect
+  libavutil      57. 17.100 / 57. 17.100
+  libavcodec     59. 18.100 / 59. 18.100
+  libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Input #0, matroska,webm, from 'compressed_8bit_768x290.mkv':
+  Metadata:
+    ENCODER         : Lavf59.16.100
+  Duration: 00:00:00.04, bitrate: 355 kb/s
+  Stream #0:0: Video: h264 (High 4:4:4 Predictive), yuvj444p(pc, unknown/unknown/bt470m, progressive), 768x290, 25 fps, 25 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc59.18.100 libx264
+      DURATION        : 00:00:00.040000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> tiff (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x5588aa790bc0] [swscaler @ 0x5588aa79e300] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5588aa790bc0] [swscaler @ 0x5588aa7b79c0] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5588aa790bc0] [swscaler @ 0x5588aa7cf280] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5588aa790bc0] [swscaler @ 0x5588aa7e6b40] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5588aa790bc0] [swscaler @ 0x5588aa7fe400] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'compressed_8bit_768x290_from_mkv.tiff':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0: Video: tiff, gray(pc, unknown/unknown/bt470m, progressive), 768x290, q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      DURATION        : 00:00:00.040000000
+      encoder         : Lavc59.18.100 tiff
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=6.63x    
+video:177kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.0.3 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 12 (GCC)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 ' --extra-cflags=' -I/usr/include/rav1e' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --enable-chromaprint --disable-crystalhd --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gnutls --enable-ladspa --enable-libaom --enable-libdav1d --enable-libass --enable-libbluray --enable-libbs2b --enable-libcdio --enable-libdrm --enable-libjack --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libilbc --enable-libmp3lame --enable-libmysofa --enable-nvenc --enable-openal --enable-opencl --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librav1e --enable-librubberband --enable-libsmbclient --enable-version3 --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-version3 --enable-vapoursynth --enable-libvpx --enable-vulkan --enable-libglslang --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libxml2 --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-avfilter --enable-libmodplug --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-lto --enable-libmfx --enable-runtime-cpudetect
+  libavutil      57. 17.100 / 57. 17.100
+  libavcodec     59. 18.100 / 59. 18.100
+  libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Input #0, matroska,webm, from 'uncompressed_8bit_1024x1024.mkv':
+  Metadata:
+    ENCODER         : Lavf59.16.100
+  Duration: 00:00:00.04, bitrate: 461 kb/s
+  Stream #0:0: Video: h264 (High 4:4:4 Predictive), yuvj444p(pc, unknown/unknown/bt470m, progressive), 1024x1024, 25 fps, 25 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc59.18.100 libx264
+      DURATION        : 00:00:00.040000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> tiff (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x556c33b88800] [swscaler @ 0x556c33b963c0] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x556c33b88800] [swscaler @ 0x556c33bb3a80] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x556c33b88800] [swscaler @ 0x556c33bd0c80] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x556c33b88800] [swscaler @ 0x556c33bede80] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x556c33b88800] [swscaler @ 0x556c33c0b080] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'uncompressed_8bit_1024x1024_from_mkv.tiff':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0: Video: tiff, gray(pc, unknown/unknown/bt470m, progressive), 1024x1024, q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      DURATION        : 00:00:00.040000000
+      encoder         : Lavc59.18.100 tiff
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=2.53x    
+video:1025kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.0.3 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 12 (GCC)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 ' --extra-cflags=' -I/usr/include/rav1e' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --enable-chromaprint --disable-crystalhd --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gnutls --enable-ladspa --enable-libaom --enable-libdav1d --enable-libass --enable-libbluray --enable-libbs2b --enable-libcdio --enable-libdrm --enable-libjack --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libilbc --enable-libmp3lame --enable-libmysofa --enable-nvenc --enable-openal --enable-opencl --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librav1e --enable-librubberband --enable-libsmbclient --enable-version3 --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-version3 --enable-vapoursynth --enable-libvpx --enable-vulkan --enable-libglslang --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libxml2 --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-avfilter --enable-libmodplug --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-lto --enable-libmfx --enable-runtime-cpudetect
+  libavutil      57. 17.100 / 57. 17.100
+  libavcodec     59. 18.100 / 59. 18.100
+  libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Input #0, matroska,webm, from 'uncompressed_8bit_1280x1024.mkv':
+  Metadata:
+    ENCODER         : Lavf59.16.100
+  Duration: 00:00:00.04, bitrate: 505 kb/s
+  Stream #0:0: Video: h264 (High 4:4:4 Predictive), yuvj444p(pc, unknown/unknown/bt470m, progressive), 1280x1024, 25 fps, 25 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc59.18.100 libx264
+      DURATION        : 00:00:00.040000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> tiff (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x555a17bbab00] [swscaler @ 0x555a17bc7ac0] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x555a17bbab00] [swscaler @ 0x555a17be77c0] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x555a17bbab00] [swscaler @ 0x555a17c06080] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x555a17bbab00] [swscaler @ 0x555a17c24940] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x555a17bbab00] [swscaler @ 0x555a17c3e180] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'uncompressed_8bit_1280x1024_from_mkv.tiff':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0: Video: tiff, gray(pc, unknown/unknown/bt470m, progressive), 1280x1024, q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      DURATION        : 00:00:00.040000000
+      encoder         : Lavc59.18.100 tiff
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=1.93x    
+video:1282kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.0.3 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 12 (GCC)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 ' --extra-cflags=' -I/usr/include/rav1e' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --enable-chromaprint --disable-crystalhd --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gnutls --enable-ladspa --enable-libaom --enable-libdav1d --enable-libass --enable-libbluray --enable-libbs2b --enable-libcdio --enable-libdrm --enable-libjack --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libilbc --enable-libmp3lame --enable-libmysofa --enable-nvenc --enable-openal --enable-opencl --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librav1e --enable-librubberband --enable-libsmbclient --enable-version3 --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-version3 --enable-vapoursynth --enable-libvpx --enable-vulkan --enable-libglslang --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libxml2 --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-avfilter --enable-libmodplug --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-lto --enable-libmfx --enable-runtime-cpudetect
+  libavutil      57. 17.100 / 57. 17.100
+  libavcodec     59. 18.100 / 59. 18.100
+  libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Input #0, matroska,webm, from 'uncompressed_8bit_1600x1200.mkv':
+  Metadata:
+    ENCODER         : Lavf59.16.100
+  Duration: 00:00:00.04, bitrate: 65803 kb/s
+  Stream #0:0: Video: h264 (High 4:4:4 Predictive), yuvj444p(pc, unknown/unknown/bt470m, progressive), 1600x1200, 25 fps, 25 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc59.18.100 libx264
+      DURATION        : 00:00:00.040000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> tiff (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x557e6f63ca80] [swscaler @ 0x557e6f64a1c0] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x557e6f63ca80] [swscaler @ 0x557e6f670880] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x557e6f63ca80] [swscaler @ 0x557e6f695080] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x557e6f63ca80] [swscaler @ 0x557e6f6b7f40] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x557e6f63ca80] [swscaler @ 0x557e6f6dae00] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'uncompressed_8bit_1600x1200_from_mkv.tiff':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0: Video: tiff, gray(pc, unknown/unknown/bt470m, progressive), 1600x1200, q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      DURATION        : 00:00:00.040000000
+      encoder         : Lavc59.18.100 tiff
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.623x    
+video:1877kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.0.3 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 12 (GCC)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 ' --extra-cflags=' -I/usr/include/rav1e' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --enable-chromaprint --disable-crystalhd --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gnutls --enable-ladspa --enable-libaom --enable-libdav1d --enable-libass --enable-libbluray --enable-libbs2b --enable-libcdio --enable-libdrm --enable-libjack --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libilbc --enable-libmp3lame --enable-libmysofa --enable-nvenc --enable-openal --enable-opencl --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librav1e --enable-librubberband --enable-libsmbclient --enable-version3 --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-version3 --enable-vapoursynth --enable-libvpx --enable-vulkan --enable-libglslang --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libxml2 --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-avfilter --enable-libmodplug --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-lto --enable-libmfx --enable-runtime-cpudetect
+  libavutil      57. 17.100 / 57. 17.100
+  libavcodec     59. 18.100 / 59. 18.100
+  libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Input #0, matroska,webm, from 'uncompressed_8bit_256x256.mkv':
+  Metadata:
+    ENCODER         : Lavf59.16.100
+  Duration: 00:00:00.04, bitrate: 320 kb/s
+  Stream #0:0: Video: h264 (High 4:4:4 Predictive), yuvj444p(pc, unknown/unknown/bt470m, progressive), 256x256, 25 fps, 25 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc59.18.100 libx264
+      DURATION        : 00:00:00.040000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> tiff (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x561e336b31c0] [swscaler @ 0x561e336c0180] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x561e336b31c0] [swscaler @ 0x561e336cd140] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x561e336b31c0] [swscaler @ 0x561e336db180] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x561e336b31c0] [swscaler @ 0x561e336eba40] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x561e336b31c0] [swscaler @ 0x561e336fc740] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'uncompressed_8bit_256x256_from_mkv.tiff':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0: Video: tiff, gray(pc, unknown/unknown/bt470m, progressive), 256x256, q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      DURATION        : 00:00:00.040000000
+      encoder         : Lavc59.18.100 tiff
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=9.92x       
+video:64kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.0.3 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 12 (GCC)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 ' --extra-cflags=' -I/usr/include/rav1e' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --enable-chromaprint --disable-crystalhd --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gnutls --enable-ladspa --enable-libaom --enable-libdav1d --enable-libass --enable-libbluray --enable-libbs2b --enable-libcdio --enable-libdrm --enable-libjack --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libilbc --enable-libmp3lame --enable-libmysofa --enable-nvenc --enable-openal --enable-opencl --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librav1e --enable-librubberband --enable-libsmbclient --enable-version3 --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-version3 --enable-vapoursynth --enable-libvpx --enable-vulkan --enable-libglslang --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libxml2 --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-avfilter --enable-libmodplug --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-lto --enable-libmfx --enable-runtime-cpudetect
+  libavutil      57. 17.100 / 57. 17.100
+  libavcodec     59. 18.100 / 59. 18.100
+  libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Input #0, matroska,webm, from 'uncompressed_8bit_512x512.mkv':
+  Metadata:
+    ENCODER         : Lavf59.16.100
+  Duration: 00:00:00.04, bitrate: 329 kb/s
+  Stream #0:0: Video: h264 (High 4:4:4 Predictive), yuvj444p(pc, unknown/unknown/bt470m, progressive), 512x512, 25 fps, 25 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc59.18.100 libx264
+      DURATION        : 00:00:00.040000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> tiff (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x5574e3ae9cc0] [swscaler @ 0x5574e3af7180] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5574e3ae9cc0] [swscaler @ 0x5574e3b0c840] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5574e3ae9cc0] [swscaler @ 0x5574e3b21a40] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5574e3ae9cc0] [swscaler @ 0x5574e3b36c40] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5574e3ae9cc0] [swscaler @ 0x5574e3b4be40] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'uncompressed_8bit_512x512_from_mkv.tiff':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0: Video: tiff, gray(pc, unknown/unknown/bt470m, progressive), 512x512, q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      DURATION        : 00:00:00.040000000
+      encoder         : Lavc59.18.100 tiff
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=6.27x    
+video:256kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.0.3 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 12 (GCC)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 ' --extra-cflags=' -I/usr/include/rav1e' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --enable-chromaprint --disable-crystalhd --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gnutls --enable-ladspa --enable-libaom --enable-libdav1d --enable-libass --enable-libbluray --enable-libbs2b --enable-libcdio --enable-libdrm --enable-libjack --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libilbc --enable-libmp3lame --enable-libmysofa --enable-nvenc --enable-openal --enable-opencl --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librav1e --enable-librubberband --enable-libsmbclient --enable-version3 --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-version3 --enable-vapoursynth --enable-libvpx --enable-vulkan --enable-libglslang --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libxml2 --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-avfilter --enable-libmodplug --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-lto --enable-libmfx --enable-runtime-cpudetect
+  libavutil      57. 17.100 / 57. 17.100
+  libavcodec     59. 18.100 / 59. 18.100
+  libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Input #0, matroska,webm, from 'uncompressed_8bit_640x512.mkv':
+  Metadata:
+    ENCODER         : Lavf59.16.100
+  Duration: 00:00:00.04, bitrate: 11715 kb/s
+  Stream #0:0: Video: h264 (High 4:4:4 Predictive), yuvj444p(pc, unknown/unknown/bt470m, progressive), 640x512, 25 fps, 25 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc59.18.100 libx264
+      DURATION        : 00:00:00.040000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> tiff (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x5559e74f0940] [swscaler @ 0x5559e74fe500] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5559e74f0940] [swscaler @ 0x5559e7978d80] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5559e74f0940] [swscaler @ 0x5559e798f480] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5559e74f0940] [swscaler @ 0x5559e79a5140] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5559e74f0940] [swscaler @ 0x5559e79bb840] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'uncompressed_8bit_640x512_from_mkv.tiff':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0: Video: tiff, gray(pc, unknown/unknown/bt470m, progressive), 640x512, q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      DURATION        : 00:00:00.040000000
+      encoder         : Lavc59.18.100 tiff
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=2.09x    
+video:321kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.0.3 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 12 (GCC)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 ' --extra-cflags=' -I/usr/include/rav1e' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --enable-chromaprint --disable-crystalhd --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gnutls --enable-ladspa --enable-libaom --enable-libdav1d --enable-libass --enable-libbluray --enable-libbs2b --enable-libcdio --enable-libdrm --enable-libjack --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libilbc --enable-libmp3lame --enable-libmysofa --enable-nvenc --enable-openal --enable-opencl --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librav1e --enable-librubberband --enable-libsmbclient --enable-version3 --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-version3 --enable-vapoursynth --enable-libvpx --enable-vulkan --enable-libglslang --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libxml2 --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-avfilter --enable-libmodplug --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-lto --enable-libmfx --enable-runtime-cpudetect
+  libavutil      57. 17.100 / 57. 17.100
+  libavcodec     59. 18.100 / 59. 18.100
+  libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Input #0, matroska,webm, from 'uncompressed_8bit_768x130.mkv':
+  Metadata:
+    ENCODER         : Lavf59.16.100
+  Duration: 00:00:00.04, bitrate: 352 kb/s
+  Stream #0:0: Video: h264 (High 4:4:4 Predictive), yuvj444p(pc, unknown/unknown/bt470m, progressive), 768x130, 25 fps, 25 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc59.18.100 libx264
+      DURATION        : 00:00:00.040000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> tiff (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x5576a62d8780] [swscaler @ 0x5576a62e6340] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5576a62d8780] [swscaler @ 0x5576a62ffa00] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5576a62d8780] [swscaler @ 0x5576a681ca40] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5576a62d8780] [swscaler @ 0x5576a6835c40] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x5576a62d8780] [swscaler @ 0x5576a684d500] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'uncompressed_8bit_768x130_from_mkv.tiff':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0: Video: tiff, gray(pc, unknown/unknown/bt470m, progressive), 768x130, q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      DURATION        : 00:00:00.040000000
+      encoder         : Lavc59.18.100 tiff
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=9.57x    
+video:98kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 5.0.3 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 12 (GCC)
+  configuration: --prefix=/usr --bindir=/usr/bin --datadir=/usr/share/ffmpeg --docdir=/usr/share/doc/ffmpeg --incdir=/usr/include/ffmpeg --libdir=/usr/lib64 --mandir=/usr/share/man --arch=x86_64 --optflags='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection' --extra-ldflags='-Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -Wl,--build-id=sha1 ' --extra-cflags=' -I/usr/include/rav1e' --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libvo-amrwbenc --enable-version3 --enable-bzlib --enable-chromaprint --disable-crystalhd --enable-fontconfig --enable-frei0r --enable-gcrypt --enable-gnutls --enable-ladspa --enable-libaom --enable-libdav1d --enable-libass --enable-libbluray --enable-libbs2b --enable-libcdio --enable-libdrm --enable-libjack --enable-libfreetype --enable-libfribidi --enable-libgsm --enable-libilbc --enable-libmp3lame --enable-libmysofa --enable-nvenc --enable-openal --enable-opencl --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librav1e --enable-librubberband --enable-libsmbclient --enable-version3 --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libv4l2 --enable-libvidstab --enable-libvmaf --enable-version3 --enable-vapoursynth --enable-libvpx --enable-vulkan --enable-libglslang --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libxml2 --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-avfilter --enable-libmodplug --enable-postproc --enable-pthreads --disable-static --enable-shared --enable-gpl --disable-debug --disable-stripping --shlibdir=/usr/lib64 --enable-lto --enable-libmfx --enable-runtime-cpudetect
+  libavutil      57. 17.100 / 57. 17.100
+  libavcodec     59. 18.100 / 59. 18.100
+  libavformat    59. 16.100 / 59. 16.100
+  libavdevice    59.  4.100 / 59.  4.100
+  libavfilter     8. 24.100 /  8. 24.100
+  libswscale      6.  4.100 /  6.  4.100
+  libswresample   4.  3.100 /  4.  3.100
+  libpostproc    56.  3.100 / 56.  3.100
+Input #0, matroska,webm, from 'uncompressed_8bit_768x290.mkv':
+  Metadata:
+    ENCODER         : Lavf59.16.100
+  Duration: 00:00:00.04, bitrate: 355 kb/s
+  Stream #0:0: Video: h264 (High 4:4:4 Predictive), yuvj444p(pc, unknown/unknown/bt470m, progressive), 768x290, 25 fps, 25 tbr, 1k tbn
+    Metadata:
+      ENCODER         : Lavc59.18.100 libx264
+      DURATION        : 00:00:00.040000000
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> tiff (native))
+Press [q] to stop, [?] for help
+[swscaler @ 0x55ed57d81bc0] [swscaler @ 0x55ed57d8f300] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x55ed57d81bc0] [swscaler @ 0x55ed57da89c0] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x55ed57d81bc0] [swscaler @ 0x55ed57dc0280] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x55ed57d81bc0] [swscaler @ 0x55ed57dd7b40] deprecated pixel format used, make sure you did set range correctly
+[swscaler @ 0x55ed57d81bc0] [swscaler @ 0x55ed57def400] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'uncompressed_8bit_768x290_from_mkv.tiff':
+  Metadata:
+    encoder         : Lavf59.16.100
+  Stream #0:0: Video: tiff, gray(pc, unknown/unknown/bt470m, progressive), 768x290, q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      DURATION        : 00:00:00.040000000
+      encoder         : Lavc59.18.100 tiff
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=7.53x    
+video:218kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[       OK ] eightbitImageTest.check8bitMkvFrom8bitTiff (8957 ms)
+[----------] 5 tests from eightbitImageTest (28586 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 2 test suites ran. (41035 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =  41.57 sec
+----------------------------------------------------------
+Test Passed.
+"16bitImageTest" end time: Mar 29 21:48 MSK
+"16bitImageTest" time elapsed: 00:00:41
+----------------------------------------------------------
+
+7/7 Testing: fitFileCollectionProcessorTest
+7/7 Test: fitFileCollectionProcessorTest
+Command: "/home/autoreleaser/fix/short/cmake/path/workspace/bin/fitFileCollectionProcessorTest"
+Directory: /home/autoreleaser/fix/short/cmake/path/workspace/tests/specialformats
+"fitFileCollectionProcessorTest" start time: Mar 29 21:48 MSK
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from FitFileCollectionProcessor
+[ RUN      ] FitFileCollectionProcessor.testOnlyFilesWithNoChannel
+[       OK ] FitFileCollectionProcessor.testOnlyFilesWithNoChannel (0 ms)
+[ RUN      ] FitFileCollectionProcessor.testOnlyFilesWithChannel
+[       OK ] FitFileCollectionProcessor.testOnlyFilesWithChannel (0 ms)
+[ RUN      ] FitFileCollectionProcessor.testMixFilesWithChannelAndNoChannel
+[       OK ] FitFileCollectionProcessor.testMixFilesWithChannelAndNoChannel (0 ms)
+[ RUN      ] FitFileCollectionProcessor.testFinishedOnEmptyList
+[       OK ] FitFileCollectionProcessor.testFinishedOnEmptyList (0 ms)
+[----------] 4 tests from FitFileCollectionProcessor (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"fitFileCollectionProcessorTest" end time: Mar 29 21:48 MSK
+"fitFileCollectionProcessorTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 29 21:48 MSK
