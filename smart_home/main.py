@@ -1,14 +1,12 @@
-import requests, json
+import requests
 import pandas as pd
 from io import BytesIO
+import json
 from vk_token import vk_token, group_id
 
-# 🔑 Твой токен (замени на свой)
+# 🔑 Твой токен и ID группы
 VK_ACCESS_TOKEN = vk_token
-
-# 📌 ID группы (можно найти в URL сообщества или через поиск API)
-GROUP_ID = group_id  # Внимание: для групп нужен минус перед ID!
-
+GROUP_ID = group_id  # Для групп нужен минус перед ID!
 API_VERSION = "5.131"
 
 def get_schedule_from_wall():
@@ -49,8 +47,7 @@ def download_and_parse_xls(url):
 
     # Параметры для парсинга
     schedule = []
-    days_of_week = ['Понедельник', 'Вторник', 'Среда', 
-                   'Четверг', 'Пятница', 'Суббота']
+    days_of_week = ['ПОНЕДЕЛЬНИК', 'ВТОРНИК', 'СРЕДА', 'ЧЕТВЕРГ', 'ПЯТНИЦА', 'СУББОТА']
     current_group = None
     current_date = None
     current_day = []
@@ -99,7 +96,7 @@ def download_and_parse_xls(url):
     return schedule
 
 def process_day(day_data, day_number, days_list):
-    """Форматирует данные одного дня."""
+    """Форматирует данные одного дня в список уроков."""
     lessons = []
     for i in range(0, len(day_data), 2):
         # Дополнительная фильтрация на случай пропущенных строк
@@ -110,65 +107,41 @@ def process_day(day_data, day_number, days_list):
         if any(keyword in subject for keyword in ["203 (ювелиры) (6)", "ювелиры", "(6)"]):
             continue
             
-        lessons.append({
-            'subject': subject,
-            'details': details
-        })
+        if subject and details:  # Убеждаемся, что есть и предмет, и детали
+            lessons.append(f"{subject} - {details}")
     
     return {
-        'day_name': days_list[day_number] if day_number < len(days_list) else f'День {day_number+1}',
+        'day_name': days_list[day_number] if day_number < len(days_list) else f'ДЕНЬ_{day_number+1}',
         'lessons': lessons
     }
-    
-def save_data_to_file(data, filename="output.txt"):
-    """Записывает данные в текстовый или JSON файл"""
+
+def save_data_to_json(data, filename="schedule.json"):
+    """Сохраняет данные в JSON-формате для Home Assistant."""
     if not data:
         print("Нет данных для записи!")
         return
 
-    # Определяем формат по расширению файла
-    file_format = filename.split('.')[-1].lower()
+    # Создаем структуру JSON
+    json_data = {
+        "date": data[0]['date_range'],  # Берем дату из первого блока
+        "group": data[0]['group'],      # Берем группу из первого блока
+        "schedule": {}
+    }
 
-    if file_format == 'txt':
-        # Сохранение в текстовый формат
-        with open(filename, 'w', encoding='utf-8') as f:
-            for schedule_block in data:
-                # Заголовок блока
-                f.write(f"Дата: {schedule_block['date_range']}\n")
-                f.write(f"Группа: {schedule_block['group']}\n")
-                f.write("=" * 50 + "\n\n")
-                
-                # Дни недели
-                for day in schedule_block['days']:
-                    f.write(f"{day['day_name'].upper()}\n")
-                    f.write("-" * 50 + "\n")
-                    
-                    # Пары
-                    for idx, lesson in enumerate(day['lessons'], 1):
-                        f.write(f"{idx}. {lesson['subject']}\n")
-                        if lesson['details']:
-                            f.write(f"   {lesson['details']}\n")
-                        f.write("\n")  # Разделитель между парами
-                    
-                    f.write("\n")  # Разделитель между днями
-                
-                f.write("\n\n")  # Разделитель между блоками
+    # Заполняем расписание по дням
+    for block in data:
+        for day in block['days']:
+            json_data["schedule"][day['day_name']] = day['lessons']
 
-        print(f"Данные успешно сохранены в {filename}")
-
-    elif file_format == 'json':
-        # Сохранение в JSON
-        with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-        print(f"Данные успешно сохранены в {filename}")
-
-    else:
-        print(f"Неподдерживаемый формат файла: {file_format}")
+    # Сохранение в JSON-файл
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(json_data, f, ensure_ascii=False, indent=2)
+    print(f"Данные успешно сохранены в {filename}")
 
 # Основной процесс
 xls_url = get_schedule_from_wall()
 if xls_url:
     column_data = download_and_parse_xls(xls_url)
-    save_data_to_file(column_data)
+    save_data_to_json(column_data, "schedule.json")
 else:
     print("Файл не найден!")
